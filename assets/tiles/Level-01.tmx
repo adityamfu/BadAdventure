@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="9">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="26">
  <tileset firstgid="1" source="BadAdventure.tsx"/>
  <layer id="1" name="Tile Layer 1" width="40" height="23">
   <data encoding="csv">
@@ -28,7 +28,23 @@
 24,24,24,113,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
 </data>
  </layer>
+ <objectgroup id="3" name="Parts" class="Platfrom">
+  <object id="16" x="52.5" y="39" width="516" height="8"/>
+  <object id="17" x="561.5" y="36.5" width="8.5" height="292.5"/>
+  <object id="18" x="55.5" y="319.5" width="513" height="7"/>
+  <object id="19" x="51.5" y="37.5" width="13" height="289"/>
+  <object id="20" x="64.5455" y="256.364" width="15.4545" height="15.8182"/>
+  <object id="21" x="64.7273" y="272.861" width="110.244" height="46.2301"/>
+  <object id="22" name="Parts" type="Platfrom" x="175.875" y="273.094" width="15.3125" height="3.21875"/>
+  <object id="23" x="256.313" y="272.313" width="15.75" height="4.3125"/>
+  <object id="24" x="272.438" y="272.313" width="47.0625" height="48.875"/>
+  <object id="25" x="448" y="273" width="111.5" height="45.5"/>
+ </objectgroup>
  <objectgroup id="2" name="SpawnPoints">
   <object id="6" name="Player" type="Player" x="151.25" y="241.545" width="23.25" height="28.3182"/>
+  <object id="10" name="Apple" type="Fruit" x="285.917" y="239.878" width="23.25" height="28.3182"/>
+  <object id="13" name="Apple" type="Fruit" x="464.25" y="239.878" width="23.25" height="28.3182"/>
+  <object id="14" name="Apple" type="Fruit" x="494.25" y="239.878" width="23.25" height="28.3182"/>
+  <object id="15" name="Apple" type="Fruit" x="480.25" y="206.878" width="23.25" height="28.3182"/>
  </objectgroup>
 </map>
